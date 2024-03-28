@@ -11,8 +11,9 @@ Databases Models
       	Task Title,
       	Task description
       	Task Status (Complete or incomplete),
-        Tasktype (Personal or team),
-        TaskTags (An array of tags that will help in organizing),
+            Tasktype (Personal or team),
+            TaskTags (An array of tags that will help in organizing),
+            TaskDeadline,
       	}
       
       The second model will be for the User and It'll be related to the task model by the 1-to-M relation
